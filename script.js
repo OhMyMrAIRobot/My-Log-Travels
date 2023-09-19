@@ -1,0 +1,1 @@
+window.onmousedown = (event) => console.log(`x = ${event.clientX}px, y = ${event.clientY}px`);

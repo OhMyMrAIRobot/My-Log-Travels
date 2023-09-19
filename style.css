@@ -1,11 +1,42 @@
-/*comment*/
-.navigation{
-    display: flex;
+/*fonts*/
+
+@font-face {
+    font-family: 'Lato-Light'; /* Замените на актуальное название */
+    src: url('fonts/Lato-Light.ttf'); /* Замените на актуальный путь к файлу шрифта */
 }
 
-.navigation li a{
-    list-style-type: none;
-    text-decoration: none;
+@font-face {
+    font-family: 'Lato-Black'; /* Замените на актуальное название */
+    src: url('fonts/Lato-Black.ttf'); /* Замените на актуальный путь к файлу шрифта */
+}
+
+/*fonts*/
+
+.navigation-bar{
+    display: flex;
+    margin-top: 97px;
+}
+
+.navigation{
     font-size: 5pt;
-    margin-right: 25pt;
+    text-decoration: none;
+    font-family: Lato-Light;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 112px;
+    /*width: 458px;*/
+}
+
+.Contact-Us{
+    font-family: Lato-Black;
+    font-size: 5pt;
+    width: 215px;
+    height: 79px;
+    margin-right: 523px;
+}
+
+
+.navigation li a{
+    font-family: Lato-Light;
+
 }
