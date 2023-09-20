@@ -12,31 +12,46 @@
 
 /*fonts*/
 
-.navigation-bar{
-    display: flex;
-    margin-top: 97px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-.navigation{
-    font-size: 5pt;
-    text-decoration: none;
+.nav-bar{
     font-family: Lato-Light;
+    margin: 0 auto;
+    width: 1196px;
+    height: 54px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-left: 112px;
-    /*width: 458px;*/
+    margin-top: 79px;
 }
 
-.Contact-Us{
+ul{
+    font-size: 20px;
+    display: flex;
+    gap: 79px;
+}
+
+.active{
     font-family: Lato-Black;
-    font-size: 5pt;
-    width: 215px;
-    height: 79px;
-    margin-right: 523px;
 }
 
+a{
+    color: rgb(128, 128, 128);
+}
 
-.navigation li a{
-    font-family: Lato-Light;
-
+.butt{
+    font-size: 16px;
+    font-family: Lato-Black;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 19px 55px;
+    color: black;
 }
