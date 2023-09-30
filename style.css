@@ -10,6 +10,16 @@
     src: url('fonts/Lato-Black.ttf'); /* Замените на актуальный путь к файлу шрифта */
 }
 
+@font-face {
+    font-family: 'Cardo-Bold'; /* Замените на актуальное название */
+    src: url('fonts/Cardo-Bold.ttf'); /* Замените на актуальный путь к файлу шрифта */
+}
+
+@font-face {
+    font-family: 'Lato-Regular'; /* Замените на актуальное название */
+    src: url('fonts/Lato-Regular.ttf'); /* Замените на актуальный путь к файлу шрифта */
+}
+
 /*fonts*/
 
 *{
@@ -21,37 +31,88 @@
 }
 
 .nav-bar{
+    font-size: 20px;
     font-family: Lato-Light;
-    margin: 0 auto;
     width: 1196px;
     height: 54px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 112px;
-    margin-top: 79px;
+    margin: 79px auto 0 112px;
+
+    .nav-btns{
+        display: flex;
+        gap: 78px;
+
+        .active{
+            color: black;
+            font-family: Lato-Black;
+        }
+
+        .nav-btn{
+            color: rgb(128, 128, 128);
+        }
+
+    }
+
+    .btn-contact{
+        font-family: Lato-Black;
+        display: inline-block;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 15px 55px;
+        color: black;
+    }
 }
 
-ul{
-    font-size: 20px;
+.home{
+    width: 1196px;
+    height: 419px;
     display: flex;
-    gap: 79px;
+    padding: 110px 112px;
+
+    /*.test{*/
+    /*    position: absolute;*/
+    /*}*/
+
+    .text-home{
+
+        .bold-home{
+            width: 428px;
+            height: 232px;
+            font-family: Cardo-Bold;
+            font-size: 85px;
+            letter-spacing: -1.7px;
+            line-height: 82px;
+        }
+
+        .p-home{
+            text-align: justify;
+            padding-top: 30px;
+            width: 426px;
+            height: 56px;
+            font-family: Lato-Regular;
+            font-size: 16px;
+            letter-spacing: -0.1px;
+            line-height: 20px;
+        }
+
+        .btn-reserve{
+            margin-top: 75px;
+            font-family: Lato-Black;
+            font-size: 20px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 14px 61px;
+            color: white;
+            background-color: black;
+        }
+    }
+
+    .img-mountain{
+        padding-left: 106px;
+    }
 }
 
-.active{
-    font-family: Lato-Black;
-}
 
-a{
-    color: rgb(128, 128, 128);
-}
-
-.butt{
-    font-size: 16px;
-    font-family: Lato-Black;
-    display: inline-block;
-    border: 3px solid black;
-    border-radius: 5px;
-    padding: 19px 55px;
-    color: black;
-}
