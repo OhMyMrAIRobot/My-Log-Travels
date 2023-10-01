@@ -25,12 +25,18 @@ margin  Bot Right
 
 /*fonts*/
 
-*, body, html{
+*, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+}
+
+body{
+    width: 1440px;
+    height: 8000px;
+    background-color: #e9e7e7;
 }
 
 .header{
@@ -141,6 +147,12 @@ margin  Bot Right
 
 .img-header{
     padding-left: 106px;
+}
+
+.scrible-d-home{
+    /*переделать*/
+    padding-left: 12px;
+    padding-top: 246px;
 }
 
 
