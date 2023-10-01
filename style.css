@@ -1,23 +1,23 @@
 /*fonts*/
 
 @font-face {
-    font-family: 'Lato-Light'; /* Замените на актуальное название */
-    src: url('fonts/Lato-Light.ttf'); /* Замените на актуальный путь к файлу шрифта */
+    font-family: 'Lato-Light';
+    src: url('fonts/Lato-Light.ttf');
 }
 
 @font-face {
-    font-family: 'Lato-Black'; /* Замените на актуальное название */
-    src: url('fonts/Lato-Black.ttf'); /* Замените на актуальный путь к файлу шрифта */
+    font-family: 'Lato-Black';
+    src: url('fonts/Lato-Black.ttf');
 }
 
 @font-face {
-    font-family: 'Cardo-Bold'; /* Замените на актуальное название */
-    src: url('fonts/Cardo-Bold.ttf'); /* Замените на актуальный путь к файлу шрифта */
+    font-family: 'Cardo-Bold';
+    src: url('fonts/Cardo-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Lato-Regular'; /* Замените на актуальное название */
-    src: url('fonts/Lato-Regular.ttf'); /* Замените на актуальный путь к файлу шрифта */
+    font-family: 'Lato-Regular';
+    src: url('fonts/Lato-Regular.ttf');
 }
 
 /*fonts*/
@@ -30,7 +30,7 @@
     text-decoration: none;
 }
 
-.nav-bar{
+.nav-bar {
     font-size: 20px;
     font-family: Lato-Light;
     width: 1196px;
@@ -39,80 +39,83 @@
     justify-content: space-between;
     align-items: center;
     margin: 79px auto 0 112px;
-
-    .nav-btns{
-        display: flex;
-        gap: 78px;
-
-        .active{
-            color: black;
-            font-family: Lato-Black;
-        }
-
-        .nav-btn{
-            color: rgb(128, 128, 128);
-        }
-
-    }
-
-    .btn-contact{
-        font-family: Lato-Black;
-        display: inline-block;
-        border: 3px solid black;
-        border-radius: 5px;
-        padding: 15px 55px;
-        color: black;
-    }
 }
 
-.home{
+.nav-btns{
+    display: flex;
+    gap: 78px;
+}
+
+.active{
+    color: black;
+    font-family: Lato-Black;
+}
+
+.nav-btn{
+    color: rgb(128, 128, 128);
+}
+
+.btn-contact{
+    font-family: Lato-Black;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 15px 55px;
+    color: black;
+}
+
+
+.home {
     width: 1196px;
     height: 419px;
     display: flex;
     padding: 110px 112px;
+}
 
-    /*.test{*/
-    /*    position: absolute;*/
-    /*}*/
+.test{
+    position: absolute;
+}
 
-    .text-home{
+.test1{
+    position: absolute;
+}
 
-        .bold-home{
-            width: 428px;
-            height: 232px;
-            font-family: Cardo-Bold;
-            font-size: 85px;
-            letter-spacing: -1.7px;
-            line-height: 82px;
-        }
+.bold-home{
+    width: 428px;
+    height: 232px;
+    font-family: Cardo-Bold;
+    font-size: 85px;
+    letter-spacing: -1.7px;
+    line-height: 82px;
+}
 
-        .p-home{
-            text-align: justify;
-            padding-top: 30px;
-            width: 426px;
-            height: 56px;
-            font-family: Lato-Regular;
-            font-size: 16px;
-            letter-spacing: -0.1px;
-            line-height: 20px;
-        }
+.p-home{
+    text-align: justify;
+    padding-top: 30px;
+    width: 426px;
+    height: 56px;
+    font-family: Lato-Regular;
+    font-size: 16px;
+    letter-spacing: -0.1px;
+    line-height: 20px;
+}
 
-        .btn-reserve{
-            margin-top: 75px;
-            font-family: Lato-Black;
-            font-size: 20px;
-            display: inline-block;
-            border: 1px solid black;
-            border-radius: 5px;
-            padding: 14px 61px;
-            color: white;
-            background-color: black;
-        }
-    }
+.btn-reserve{
+    margin-top: 75px;
+    margin-left: 3px;
+    font-family: Lato-Black;
+    font-size: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 14px 59px;
+    /*letter-spacing: 0.3px;*/
+    color: white;
+    background-color: black;
+}
 
-    .img-mountain{
-        padding-left: 106px;
-    }
+.img-mountain{
+    padding-left: 106px;
 }
 
 
