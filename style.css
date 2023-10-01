@@ -1,4 +1,7 @@
-/*fonts*/
+/*fonts
+padding Top Left
+margin  Bot Right
+*/
 
 @font-face {
     font-family: 'Lato-Light';
@@ -22,7 +25,7 @@
 
 /*fonts*/
 
-*{
+*, body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,92 +33,116 @@
     text-decoration: none;
 }
 
-.nav-bar {
-    font-size: 20px;
-    font-family: Lato-Light;
-    width: 1196px;
+.header{
+    width: 1382px;
+    height: 818px;
+    margin-left: 112px;
+    margin-top: 79px;
+}
+
+.nav-bar{
+    width: 1198px;
     height: 54px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 79px auto 0 112px;
 }
 
 .nav-btns{
+    margin-top: 14px;
+    width: 458px;
+    height: 20px;
     display: flex;
-    gap: 78px;
-}
-
-.active{
-    color: black;
-    font-family: Lato-Black;
+    font-family: Lato-Light;
+    font-weight: 300;
+    font-size: 20px;
+    justify-content: space-between;
 }
 
 .nav-btn{
     color: rgb(128, 128, 128);
 }
 
+.active{
+    font-family: Lato-Black, sans-serif;
+    color: rgb(128, 128, 128);
+}
+
 .btn-contact{
-    font-family: Lato-Black;
+    min-width: 215px;
+    min-height: 54px;
     display: inline-block;
     border: 3px solid black;
     border-radius: 5px;
-    padding: 15px 55px;
+    padding-top: 10px;
+}
+
+.txt-contact{
+    width: 105px;
+    height: 16px;
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
     color: black;
+    margin-left: 52px;
+    letter-spacing: 0.5px;
 }
 
-
-.home {
-    width: 1196px;
-    height: 419px;
+.home{
     display: flex;
-    padding: 110px 112px;
+    width: 428px;
+    height: 419px;
+    margin-top: 108px;
 }
 
-.test{
-    position: absolute;
+.text-header{
+
 }
 
-.test1{
-    position: absolute;
-}
-
-.bold-home{
+.bold-header{
     width: 428px;
     height: 232px;
-    font-family: Cardo-Bold;
-    font-size: 85px;
-    letter-spacing: -1.7px;
-    line-height: 82px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    letter-spacing: -1px;
+    line-height: 83px;
 }
 
-.p-home{
-    text-align: justify;
-    padding-top: 30px;
+.p-header{
     width: 426px;
     height: 56px;
-    font-family: Lato-Regular;
-    font-size: 16px;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    padding-top: 33px;
+    text-align: justify;
     letter-spacing: -0.1px;
-    line-height: 20px;
 }
 
 .btn-reserve{
-    margin-top: 75px;
-    margin-left: 3px;
-    font-family: Lato-Black;
-    font-size: 20px;
+    min-width: 256px;
+    min-height: 54px;
     display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 14px 59px;
-    /*letter-spacing: 0.3px;*/
-    color: white;
+    margin-top: 78px;
+    margin-left: 3px;
     background-color: black;
+    padding-top: 14px;
 }
 
-.img-mountain{
+.txt-reserve{
+    margin-left: 56px;
+    color:white;
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.img-header{
     padding-left: 106px;
 }
+
+
 
 
