@@ -111,7 +111,7 @@ body{
     font-weight: 700;
     font-size: 84px;
     letter-spacing: -1px;
-    line-height: 83px;
+    line-height: 81px;
 }
 
 .p-header{
@@ -119,7 +119,7 @@ body{
     height: 56px;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
-    padding-top: 33px;
+    padding-top: 31px;
     text-align: justify;
     letter-spacing: -0.1px;
 }
