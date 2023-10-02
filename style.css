@@ -154,7 +154,8 @@ body{
 }
 
 .guides{
-    width: 1574px;
+    /*width: 1574px;*/
+    width: 1440px;
     height: 1187px;
     background-color: blueviolet;
     margin-top: -78px;
@@ -208,7 +209,7 @@ body{
 }
 
 .btn-logs{
-    margin-top: 96px;
+    margin-top: 98px;
     min-width: 256px;
     min-height: 54px;
     display: inline-block;
@@ -229,3 +230,55 @@ body{
     margin-left: 56px;
     letter-spacing: 0.5px;
 }
+
+.scrible-light-g-1{
+    margin-top: 51px;
+    position: absolute;
+}
+
+.scrible-light-g-2{
+    text-align: right;
+    margin-top: -96px;
+}
+
+.img-guides{
+    width: 1207px;
+    height: 474px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 166px;
+}
+
+.delimiter{
+    margin-top: 28px;
+    width: 52px;
+    height: 3px;
+    background-color: black;
+}
+
+.head-img{
+    margin-top: 24px;
+    width: 230px;
+    height: 63px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -0.5px;
+    line-height: 36px;
+}
+
+.par-img{
+    margin-top: 36px;
+    margin-left: 1px;
+    width: 362px;
+    height: 76px;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: justify;
+    letter-spacing: -0.3px;
+    line-height: 20px;
+}
+
