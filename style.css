@@ -62,19 +62,19 @@ body{
 }
 
 .nav-btn{
-    color: rgb(128, 128, 128);
+    color: #232323;
 }
 
 .active{
     font-family: Lato-Black, sans-serif;
-    color: rgb(128, 128, 128);
+    color: #232323;
 }
 
 .btn-contact{
     min-width: 215px;
     min-height: 54px;
     display: inline-block;
-    border: 3px solid black;
+    border: 3px solid #232323;
     border-radius: 5px;
     padding-top: 10px;
 }
@@ -85,7 +85,7 @@ body{
     font-family: Lato-Black, sans-serif;
     font-weight: 900;
     font-size: 20px;
-    color: black;
+    color: #232323;
     margin-left: 52px;
     letter-spacing: 0.5px;
 }
@@ -129,13 +129,13 @@ body{
     border-radius: 5px;
     margin-top: 78px;
     margin-left: 3px;
-    background-color: black;
+    background-color: #232323;
     padding-top: 14px;
 }
 
 .txt-reserve{
     margin-left: 56px;
-    color:white;
+    color:#e9e7e7;
     font-family: Lato-Black, sans-serif;
     font-weight: 900;
     font-size: 20px;
@@ -157,7 +157,7 @@ body{
     /*width: 1574px;*/
     width: 1440px;
     height: 1187px;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
     margin-top: -78px;
 }
 
@@ -184,7 +184,7 @@ body{
     font-size: 54px;
     letter-spacing: 0.7px;
     line-height: 54px;
-    color: white;
+    color: #e9e7e7;
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ body{
     text-align: center;
     letter-spacing: -1px;
     line-height: 20px;
-    color:white;
+    color: #e9e7e7;
 }
 
 .btn-logs{
@@ -215,7 +215,7 @@ body{
     display: inline-block;
     border: 3px solid white;
     border-radius: 5px;
-    background-color: black;
+    background-color: #232323;
     padding-top: 12px;
     text-align: left;
 }
@@ -226,7 +226,7 @@ body{
     font-family: Lato-Black, sans-serif;
     font-weight: 900;
     font-size: 20px;
-    color: white;
+    color: #e9e7e7;
     margin-left: 56px;
     letter-spacing: 0.5px;
 }
@@ -255,7 +255,7 @@ body{
     margin-top: 28px;
     width: 52px;
     height: 3px;
-    background-color: black;
+    background-color: #232323;
 }
 
 .head-img{
