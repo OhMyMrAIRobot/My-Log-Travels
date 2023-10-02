@@ -97,10 +97,6 @@ body{
     margin-top: 108px;
 }
 
-.text-header{
-
-}
-
 .bold-header{
     width: 428px;
     height: 232px;
@@ -147,17 +143,23 @@ body{
 }
 
 .scrible-d-home{
-    /*переделать*/
     padding-left: 12px;
     padding-top: 246px;
     z-index: -1;
+}
+
+.scrible-l-home{
+    position: absolute;
+    z-index: -1;
+    margin-left: -112px;
+    margin-top: 184px;
 }
 
 .guides{
     /*width: 1574px;*/
     width: 1440px;
     height: 1187px;
-    /*background-color: blueviolet;*/
+    background-color: blueviolet;
     margin-top: -78px;
 }
 
@@ -282,3 +284,53 @@ body{
     line-height: 20px;
 }
 
+.scrible-dark-g1{
+    position: absolute;
+    margin-top: -15px;
+}
+
+.scrible-light-f{
+    text-align: right;
+    margin-top: 48px;
+}
+
+.scrible-dark-g2{
+    text-align: right;
+    /*переделать*/
+    margin-top: -232px;
+}
+
+.flights{
+    width: 975px;
+    height: 536px;
+    background-color: aqua;
+    position: absolute;
+}
+
+.plane-icon{
+    width: 1440px;
+    text-align: center;
+}
+
+.text-flights{
+    width: 777px;
+    height: 285px;
+}
+
+.head-flights{
+    width: 777px;
+    height: 199px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 99px;
+    letter-spacing: -0.6px;
+    line-height: 96px;
+}
+
+.delimiter-flights{
+    margin-top: -7px;
+    width: 244px;
+    height: 5px;
+    background-color: #232323;
+}
