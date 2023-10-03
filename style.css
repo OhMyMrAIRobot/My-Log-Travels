@@ -300,11 +300,16 @@ body{
     margin-top: -232px;
 }
 
-.flights{
+.emptydiv-1{
+    width: 1440px;
+    height: 238px;
+}
+
+.container-flights{
+    margin-left: auto;
+    margin-right: auto;
     width: 975px;
-    height: 536px;
-    background-color: aqua;
-    position: absolute;
+    height: 401px;
 }
 
 .plane-icon{
@@ -312,7 +317,14 @@ body{
     text-align: center;
 }
 
+
+.coursive{
+    font-style: italic;
+}
+
 .text-flights{
+    margin-left: auto;
+    margin-right: auto;
     width: 777px;
     height: 285px;
 }
@@ -326,6 +338,7 @@ body{
     font-size: 99px;
     letter-spacing: -0.6px;
     line-height: 96px;
+    margin-top: 59px;
 }
 
 .delimiter-flights{
@@ -333,4 +346,77 @@ body{
     width: 244px;
     height: 5px;
     background-color: #232323;
+}
+
+.par-flights{
+    width: 647px;
+    height: 23px;
+    text-align: center;
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 0.7px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrible-dark-f{
+    margin-left: -98px;
+    margin-top: 5px;
+}
+
+.mountains {
+    width: 1241px;
+    height: 776px;
+    background-color: burlywood;
+    display:flex;
+    margin-left:50px
+}
+
+.img-mountain-1 {
+
+}
+
+.mountain-text{
+    display: flex;
+    margin-top: 64px;
+}
+
+.mountains-right-container {
+    margin-left: 43px;
+}
+
+
+.mountains-tape {
+    margin-top: auto;
+    margin-bottom: auto;
+    /*margin-left: 50px;*/
+}
+
+.head-mountains {
+    width: 236px;
+    height: 235px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 37px;
+    line-height: 50px;
+    letter-spacing: -0.1px;
+    text-decoration: underline;
+}
+
+.par-mountain-text{
+    width: 320px;
+    height: 175px;
+    background-color: azure;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify
+}
+
+.par-mountains-1{
+    letter-spacing: -0.75px;
+    line-height: 20px;
 }
