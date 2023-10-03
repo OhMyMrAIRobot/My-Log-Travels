@@ -159,7 +159,6 @@ body{
     /*width: 1574px;*/
     width: 1440px;
     height: 1187px;
-    background-color: blueviolet;
     margin-top: -78px;
 }
 
@@ -369,29 +368,41 @@ body{
 .mountains {
     width: 1241px;
     height: 776px;
-    background-color: burlywood;
     display:flex;
-    margin-left:50px
+    margin-left:84px;
+    position: relative;
+}
+
+.mountains-tape {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -52%);
+}
+
+.fa-solid{
+    display: flex;
+    margin-top: auto;
+    margin-left: 40px;
+}
+
+.fa-arrow-right-long{
 }
 
 .img-mountain-1 {
-
-}
-
-.mountain-text{
-    display: flex;
-    margin-top: 64px;
+    margin-left: 35px;
 }
 
 .mountains-right-container {
     margin-left: 43px;
 }
 
+.emptydiv-2{
+    height: 154px;
+}
 
-.mountains-tape {
-    margin-top: auto;
-    margin-bottom: auto;
-    /*margin-left: 50px;*/
+.mountain-text{
+    display: flex;
+    margin-top: 64px;
 }
 
 .head-mountains {
@@ -404,19 +415,23 @@ body{
     line-height: 50px;
     letter-spacing: -0.1px;
     text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: none;
 }
 
-.par-mountain-text{
-    width: 320px;
+.par-mountain{
+    margin-top: 7px;
+    margin-left: 45px;
+    width: 317px;
     height: 175px;
-    background-color: azure;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
-    text-align: justify
+    text-align: justify;
 }
 
-.par-mountains-1{
-    letter-spacing: -0.75px;
+.par-mountains-text{
+    letter-spacing: -0.9px;
     line-height: 20px;
 }
