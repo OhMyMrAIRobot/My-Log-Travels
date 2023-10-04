@@ -371,6 +371,7 @@ body{
     display:flex;
     margin-left:84px;
     position: relative;
+    background-color: bisque;
 }
 
 .mountains-tape {
@@ -437,19 +438,31 @@ body{
 }
 
 .man-on-mountain{
-    margin-top: 47px;
     width: 1440px;
     height: 872px;
-    background: #232323;
+    background-color: #232323;
+    align-content: space-between;
+    margin-top: 47px;
+    display:inline-block;
 }
 
 .man-on-mountain-container{
-    margin-left: auto;
-    width: 1322px;
-    height: 562px;
     display: flex;
-    background: aqua;
+    width: 1322px;
+    height: 717px;
     justify-content: space-between;
+    margin-left: auto;
+}
+
+.man-on-mountain-image{
+    margin-top: auto;
+}
+
+.man-on-mountain-text{
+    width: 456px;
+    height: 562px;
+    margin-top: auto;
+    color: #e9e7e7;
 }
 
 .man-on-mountain-h1{
@@ -477,6 +490,7 @@ body{
     font-size: 23px;
     letter-spacing: 0.4px;
 }
+
 .par-text{
     margin-left: 1px;
     margin-top: 19px;
@@ -488,4 +502,8 @@ body{
     line-height: 20px;
     text-align: justify;
     letter-spacing: -1.1px;
+}
+
+.scrible-d-5{
+    margin-top: 39px;
 }
