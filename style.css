@@ -371,7 +371,6 @@ body{
     display:flex;
     margin-left:84px;
     position: relative;
-    background-color: bisque;
 }
 
 .mountains-tape {
@@ -508,24 +507,27 @@ body{
     margin-top: 39px;
 }
 
+.emptydiv-3{
+    height: 146px;
+}
+
 .container-group-6{
     display: flex;
-    width: 1272px;
+    width: 1212px;
     height: 516px;
-    background-color: blueviolet;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .text-group-6{
-    width: 798px;
+    width: 741px;
     height: 516px;
-    background-color: blue;
 }
 
 .head-group-6{
     width: 741px;
     height: 150px;
-    background-color: aqua;
     font-family: Cardo-Bold, sans-serif;
     font-weight: 700;
     font-size: 82px;
@@ -535,37 +537,37 @@ body{
 }
 
 .pars-group-6{
-    width: 736px;
+    width: 737px;
     height: 259px;
-    background-color: bisque;
-}
-
-.line-group-6{
-    width: 736px;
-    height: 3px;
-    background-color: #232323;
-}
-
-.par-cross-group-6{
-    margin-left: 3px;
-    width: 655px;
-    height: 19px;
-    display: flex;
-    background-color: aliceblue;
     justify-content: space-between;
+    align-items: center;
 }
 
-.cross-group-6{
-    width: 10px;
-    height: 4px;
-    background-color: #232323;
+.emptydiv-4{
+    height: 102px;
 }
 
-.pars-group-6{
-    width: 486px;
-    height: 16px;
+.par-group-6{
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: -1px;
+    text-align: left;
+    min-height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 39px;
+}
+
+.line-6{
+    margin-left: 1px;
+    border-top: 3px solid #232323;
+}
+
+.btn-group-6{
+    background-color: transparent;
+    border: none;
+    font-size: 40px;
+    padding-right: 40px;
 }
