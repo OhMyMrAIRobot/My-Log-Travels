@@ -3,21 +3,29 @@
 @font-face {
     font-family: 'Lato-Light';
     src: url('fonts/Lato-Light.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Lato-Black';
     src: url('fonts/Lato-Black.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Cardo-Bold';
     src: url('fonts/Cardo-Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 @font-face {
     font-family: 'Lato-Regular';
     src: url('fonts/Lato-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
 
 /*fonts*/
@@ -55,7 +63,7 @@ body{
     width: 458px;
     height: 20px;
     display: flex;
-    font-family: Lato-Light;
+    font-family: Lato-Light, sans-serif;
     font-weight: 300;
     font-size: 20px;
     justify-content: space-between;
@@ -575,10 +583,16 @@ body{
 .group-7{
     height: 779px;
     width: 1440px;
+    background-color: aqua;
+    display: inline-block;
 }
 
 .group-7-p1-title{
     display: flex;
+}
+
+.scrible-d-7-1{
+    height: 172px;
 }
 
 .group-7-title{
@@ -590,10 +604,13 @@ body{
     text-align: center;
     letter-spacing: -0.14px;
     line-height: 81px;
+    margin-left: 72px;
+    margin-top:50px;
 }
 
 .group-7-rects{
     display: flex;
+    margin-top: 48px;
 }
 
 .rect-g-7{
@@ -601,11 +618,50 @@ body{
     height: 424px;
     border: 3px solid #232323;
     border-radius: 10px;
+    text-align: center;
 }
 
-.rect-arrow-g7{
+.rect-arrow-g7-left{
     width: 83px;
     height: 73px;
     border: 3px solid #232323;
     border-radius: 10px;
+
+}
+
+.rect-arrow-g7-right{
+    width: 83px;
+    height: 73px;
+    border: 3px solid #232323;
+    border-radius: 10px;
+}
+
+.person-group-7{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.head-group-7{
+    height: 18px;
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.par-group-7{
+    /*width: 340px;*/
+    /*height: 56px;*/
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 20px;
+    text-align: center;
+    color: #6d6d6d;
+}
+
+.scrible-d-7-2{
+    float:right;
 }
