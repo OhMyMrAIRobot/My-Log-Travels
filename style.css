@@ -571,3 +571,41 @@ body{
     font-size: 40px;
     padding-right: 40px;
 }
+
+.group-7{
+    height: 779px;
+    width: 1440px;
+}
+
+.group-7-p1-title{
+    display: flex;
+}
+
+.group-7-title{
+    width: 630px;
+    height: 173px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 82px;
+    text-align: center;
+    letter-spacing: -0.14px;
+    line-height: 81px;
+}
+
+.group-7-rects{
+    display: flex;
+}
+
+.rect-g-7{
+    width: 389px;
+    height: 424px;
+    border: 3px solid #232323;
+    border-radius: 10px;
+}
+
+.rect-arrow-g7{
+    width: 83px;
+    height: 73px;
+    border: 3px solid #232323;
+    border-radius: 10px;
+}
