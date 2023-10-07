@@ -766,3 +766,13 @@ body{
     font-size: 24px;
     letter-spacing: 0.5px;
 }
+
+.emptydiv-6{
+    height: 212px;
+}
+
+.group-9{
+    width: 1440px;
+    height: 575px;
+    background-color: #c4c4c4;
+}
