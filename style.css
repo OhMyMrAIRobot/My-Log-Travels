@@ -129,7 +129,7 @@ body{
     min-width: 256px;
     min-height: 54px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid #232323;
     border-radius: 5px;
     margin-top: 78px;
     margin-left: 3px;
@@ -580,6 +580,10 @@ body{
     padding-right: 40px;
 }
 
+.emptydiv-5{
+    height: 264px;
+}
+
 .group-7{
     height: 779px;
     width: 1440px;
@@ -664,4 +668,101 @@ body{
 
 .scrible-d-7-2{
     float:right;
+}
+
+.group-8{
+    width: 1212px;
+    height: 730px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text-group-8{
+    width: 455px;
+    height: 730px;
+}
+
+.title-group-8{
+    width: 434px;
+    height: 91px;
+    margin-left: 2px;
+    font-family: Cardo-Bold, sans-serif;
+    font-weight: 700;
+    font-size: 84px;
+    letter-spacing: -1.4px;
+    line-height: 84px;
+}
+
+.containers-group-8{
+    margin-top: 36px;
+    width: 454px;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+}
+
+.text-input{
+    width: 454px;
+    height: 58px;
+    border-radius: 5px;
+    border: 3px solid #232323;
+    background-color: #e9e7e7;
+    padding-left: 26px;
+    font-size: 20px;
+    outline: none;
+}
+
+.text-input::placeholder{
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.msg-input{
+    min-width: 454px;
+    min-height: 223px;
+    resize: none;
+    border-radius: 5px;
+    border: 3px solid #232323;
+    background-color: #e9e7e7;
+    padding-left: 25px;
+    font-size: 22px;
+    padding-top: 14px;
+    letter-spacing: -0.7px;
+    text-align: left;
+    outline: none;
+}
+
+.msg-input::placeholder{
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    width: 218px;
+    letter-spacing: -0.7px;
+    text-align: left;
+}
+
+.btn-group-8{
+    margin-top: 60px;
+    min-width: 455px;
+    min-height: 66px;
+    display: inline-block;
+    border: 1px solid #232323;
+    border-radius: 5px;
+    background-color: #232323;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.text-btn-8{
+    color:#e9e7e7;
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.5px;
 }
