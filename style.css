@@ -785,7 +785,6 @@ body{
     position: absolute;
     width: 1182px;
     height: 339px;
-    background-color: blueviolet;
     margin-left: 115px;
     display: flex;
     flex-direction: column;
@@ -809,8 +808,68 @@ body{
 
 .links-group-9{
     width: 831px;
-    height: 193px;
-    background-color: aqua;
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quick-head{
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+    width: 126px;
+    letter-spacing: -0.2px;
+    margin-top: -5px;
+}
+
+.links-container{
+    width: 831px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-9{
+    margin-top: -3px;
+    height: 124px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c1{
+    width: 134px;
+}
+
+.c2{
+    width: 121px;
+}
+
+.c3{
+    width: 162px;
+}
+
+.c4{
+    width: 162px;
+}
+
+.item-9{
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    color: #232323;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+}
+
+.subitem-9{
+    font-family: Lato-Regular, sans-serif;
+    font-weight: 400;
+    color: #232323;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    margin-left: 18px;
 }
 
 .rights{
