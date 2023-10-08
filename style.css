@@ -387,15 +387,6 @@ body{
     transform: translate(0%, -52%);
 }
 
-.fa-solid{
-    display: flex;
-    margin-top: auto;
-    margin-left: 40px;
-}
-
-.fa-arrow-right-long{
-}
-
 .img-mountain-1 {
     margin-left: 35px;
 }
@@ -432,16 +423,23 @@ body{
     margin-top: 7px;
     margin-left: 45px;
     width: 317px;
-    height: 175px;
+    height: 337px;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
 .par-mountains-text{
     letter-spacing: -0.9px;
     line-height: 20px;
+}
+
+.arrow{
+    margin-top: auto;
+    margin-left: auto;
 }
 
 .man-on-mountain{
@@ -587,8 +585,8 @@ body{
 .group-7{
     height: 779px;
     width: 1440px;
-    background-color: aqua;
     display: inline-block;
+    position: relative;
 }
 
 .group-7-p1-title{
@@ -613,16 +611,24 @@ body{
 }
 
 .group-7-rects{
+    width: 1211px;
     display: flex;
     margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
 }
 
-.rect-g-7{
-    width: 389px;
-    height: 424px;
-    border: 3px solid #232323;
-    border-radius: 10px;
-    text-align: center;
+.rect-arrow{
+    position: absolute;
+    width: 1294px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -44px;
+    top: 62%;
+    transform: translate(0%, -62%);
+    z-index: 100;
 }
 
 .rect-arrow-g7-left{
@@ -640,29 +646,44 @@ body{
     border-radius: 10px;
 }
 
+.rect-g-7{
+    width: 389px;
+    height: 424px;
+    border: 3px solid #232323;
+    border-radius: 10px;
+    text-align: center;
+}
+
 .person-group-7{
     display: block;
     margin-left:auto;
     margin-right: auto;
+    margin-top: 69px;
 }
 
 .head-group-7{
+    margin-top: 41px;
+    margin-left: -3px;
     height: 18px;
     font-family: Lato-Black, sans-serif;
     font-weight: 900;
-    font-size: 22px;
-    letter-spacing: 1px;
+    font-size: 23px;
+    letter-spacing: 0.5px;
 }
 
 .par-group-7{
-    /*width: 340px;*/
-    /*height: 56px;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    width: 307px;
+    height: 56px;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
     letter-spacing: -1px;
     line-height: 20px;
-    text-align: center;
+    text-align: justify;
+    text-align-last: center;
     color: #6d6d6d;
 }
 
