@@ -2,28 +2,28 @@
 
 @font-face {
     font-family: 'Lato-Light';
-    src: url('fonts/Lato-Light.ttf');
+    src: url('./fonts/Lato-Light.ttf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Lato-Black';
-    src: url('fonts/Lato-Black.ttf');
+    src: url('./fonts/Lato-Black.ttf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Cardo-Bold';
-    src: url('fonts/Cardo-Bold.ttf');
+    src: url('./fonts/Cardo-Bold.ttf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Lato-Regular';
-    src: url('fonts/Lato-Regular.ttf');
+    src: url('./fonts/Lato-Regular.ttf');
     font-style: normal;
     font-weight: normal;
 }
@@ -163,9 +163,7 @@ body{
 
 .scrible-l-home{
     position: absolute;
-    z-index: -1;
-    margin-left: -112px;
-    margin-top: 184px;
+    z-index: -100;
 }
 
 .guides{
