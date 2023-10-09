@@ -179,14 +179,14 @@ body{
     width: 1440px;
     background-color: #232323;
     text-align: center;
+    display: flex;
 }
 
 .text-container-title-guides{
     width: 438px;
     height: 98px;
-    padding-top: 49px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 48px;
+    margin-left: 67px;
 }
 
 .title-guides{
@@ -201,14 +201,6 @@ body{
     text-align: center;
 }
 
-.text-container-par-guides{
-    width: 439px;
-    height: 56px;
-    padding-top: 82px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .p-guides{
     width: 439px;
     height: 56px;
@@ -219,10 +211,11 @@ body{
     letter-spacing: -1px;
     line-height: 20px;
     color: #e9e7e7;
+    margin-top: 33px;
 }
 
 .btn-logs{
-    margin-top: 98px;
+    margin-top: 44px;
     min-width: 256px;
     min-height: 54px;
     display: inline-block;
@@ -246,22 +239,28 @@ body{
 
 .scrible-light-g-1{
     margin-top: 51px;
-    position: absolute;
 }
 
 .scrible-light-g-2{
-    text-align: right;
-    margin-top: -96px;
+    margin-top: auto;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+
+.img-container{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .img-guides{
     width: 1207px;
     height: 474px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 32px;
     display: flex;
     justify-content: space-between;
-    margin-top: 166px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .delimiter{
@@ -295,8 +294,7 @@ body{
     line-height: 20px;
 }
 
-.scrible-dark-g1{
-    position: absolute;
+.s-dark-g2a{
     margin-top: -15px;
 }
 
@@ -305,10 +303,9 @@ body{
     margin-top: 48px;
 }
 
-.scrible-dark-g2{
+.s-dark-g2b{
     text-align: right;
-    /*переделать*/
-    margin-top: -232px;
+    margin-top: auto;
 }
 
 .emptydiv-1{
@@ -327,7 +324,6 @@ body{
     width: 1440px;
     text-align: center;
 }
-
 
 .coursive{
     font-style: italic;
