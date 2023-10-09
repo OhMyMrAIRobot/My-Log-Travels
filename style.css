@@ -158,6 +158,7 @@ body{
 .scrible-d-home{
     padding-left: 13px;
     margin-top: auto;
+    z-index: -100;
 }
 
 .scrible-l-home{
