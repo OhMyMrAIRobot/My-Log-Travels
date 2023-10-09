@@ -73,7 +73,30 @@ body{
 }
 
 .nav-btn{
+    position: relative;
+    display: inline-block;
     color: #232323;
+    transition: 0.5s;
+}
+
+.nav-btn::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #232323;
+}
+
+.nav-btn:hover{
+    font-family: Lato-Black, sans-serif;
+    font-weight: 900;
+}
+
+.nav-btn:hover:before{
+    transition: 0.5s;
+    width: 100%;
 }
 
 .active{
@@ -95,6 +118,14 @@ body{
     color: #232323;
     padding-left: 52px;
     letter-spacing: 0.5px;
+    transition: 1s;
+}
+
+.btn-contact:hover{
+    transition: 1s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .home{
@@ -141,6 +172,14 @@ body{
     font-weight: 900;
     font-size: 20px;
     letter-spacing: 0.5px;
+    transition: 1s;
+}
+
+.btn-reserve:hover{
+    transition: 1s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .img-header{
@@ -226,6 +265,14 @@ body{
     color: #e9e7e7;
     padding-left: 56px;
     letter-spacing: 0.5px;
+    transition: 1s;
+}
+
+.btn-logs:hover{
+    transition: 1s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .scrible-light-g-1{
@@ -569,6 +616,7 @@ body{
     border: none;
     font-size: 40px;
     padding-right: 40px;
+    cursor: pointer;
 }
 
 .emptydiv-5{
@@ -777,6 +825,14 @@ body{
     font-size: 24px;
     letter-spacing: 0.5px;
     padding-left: 2px;
+    transition: 1s;
+}
+
+.btn-group-8:hover{
+    transition: 1s;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .emptydiv-6{
@@ -872,6 +928,28 @@ body{
     text-decoration: none;
     font-size: 20px;
     letter-spacing: -0.2px;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.item-9::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background-color: #232323;
+}
+
+.item-9:hover{
+    font-weight: bold;
+}
+
+.item-9:hover:before{
+    transition: 0.5s;
+    width: 100%;
 }
 
 .subitem-9{
