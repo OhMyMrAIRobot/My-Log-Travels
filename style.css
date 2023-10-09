@@ -45,9 +45,11 @@ body{
 }
 
 .header{
-    width: 1382px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 1328px;
     height: 818px;
-    margin-left: 112px;
     margin-top: 79px;
 }
 
@@ -75,6 +77,7 @@ body{
 
 .active{
     font-family: Lato-Black, sans-serif;
+    font-weight: 900;
     color: #232323;
 }
 
@@ -100,9 +103,9 @@ body{
 
 .home{
     display: flex;
-    width: 428px;
-    height: 419px;
-    margin-top: 108px;
+    width: 1328px;
+    height: 662px;
+    margin-top: auto;
 }
 
 .bold-header{
@@ -113,6 +116,7 @@ body{
     font-size: 84px;
     letter-spacing: -1px;
     line-height: 81px;
+    margin-top: 7px;
 }
 
 .p-header{
@@ -148,12 +152,12 @@ body{
 
 .img-header{
     padding-left: 106px;
+    margin-top: 7px;
 }
 
 .scrible-d-home{
-    padding-left: 12px;
-    padding-top: 246px;
-    z-index: -1;
+    padding-left: 13px;
+    margin-top: auto;
 }
 
 .scrible-l-home{
@@ -164,7 +168,6 @@ body{
 }
 
 .guides{
-    /*width: 1574px;*/
     width: 1440px;
     height: 1187px;
     margin-top: -78px;
