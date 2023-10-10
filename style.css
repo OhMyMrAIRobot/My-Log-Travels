@@ -80,10 +80,10 @@ body{
 }
 
 .nav-btn::before{
-    content: '';
     position: absolute;
-    left: 0;
     bottom: -5px;
+    content: '';
+    left: 0;
     width: 0;
     height: 3px;
     background-color: #232323;
@@ -139,11 +139,12 @@ body{
     width: 428px;
     height: 232px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 84px;
     letter-spacing: -1px;
     line-height: 81px;
     margin-top: 7px;
+
 }
 
 .p-header{
@@ -151,7 +152,7 @@ body{
     height: 56px;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
-    padding-top: 31px;
+    padding-top: 29px;
     text-align: justify;
     letter-spacing: -0.1px;
 }
@@ -225,7 +226,7 @@ body{
     width: 438px;
     height: 98px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 54px;
     letter-spacing: 0.7px;
     line-height: 56px;
@@ -282,7 +283,7 @@ body{
 .scrible-light-g-2{
     margin-top: auto;
     margin-bottom: 60px;
-    margin-left: 30px;
+    margin-left: 26px;
 }
 
 .img-container{
@@ -314,7 +315,7 @@ body{
     width: 230px;
     height: 63px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 38px;
     letter-spacing: -0.5px;
     line-height: 36px;
@@ -379,12 +380,13 @@ body{
     width: 777px;
     height: 199px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     font-size: 99px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.5px;
     line-height: 96px;
     margin-top: 59px;
+    margin-left: 3px;
 }
 
 .delimiter-flights{
@@ -409,7 +411,7 @@ body{
 
 .scrible-dark-f{
     margin-left: -98px;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 .mountains {
@@ -440,14 +442,14 @@ body{
 
 .mountain-text{
     display: flex;
-    margin-top: 64px;
+    margin-top: 63px;
 }
 
 .head-mountains {
     width: 236px;
     height: 235px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     text-align: left;
     font-size: 37px;
     line-height: 50px;
@@ -459,7 +461,7 @@ body{
 }
 
 .par-mountain{
-    margin-top: 7px;
+    margin-top: 8px;
     margin-left: 45px;
     width: 317px;
     height: 337px;
@@ -504,17 +506,21 @@ body{
 
 .man-on-mountain-text{
     width: 456px;
-    height: 562px;
+    height: 564px;
     margin-top: auto;
     color: #e9e7e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .man-on-mountain-h1{
+    margin-top: 2px;
     margin-left: 2px;
     width: 456px;
     height: 118px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.2px;
     line-height: 56px;
     font-size: 55px;
@@ -522,23 +528,30 @@ body{
 
 .man-on-mountain-pars{
     width: 453px;
-    height: 144px;
-    padding-top: 45px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pars{
+    height: 138px;
+    width: 453px;
 }
 
 .par-title{
-    margin-top: 60px;
+    margin-left: 1px;
     width: 203px;
     height: 23px;
     font-family: Lato-Black, sans-serif;
     font-weight: 900;
     font-size: 23px;
     letter-spacing: 0.4px;
+    line-height: 23px;
 }
 
 .par-text{
-    margin-left: 1px;
-    margin-top: 19px;
+    margin-top: 17px;
     width: 453px;
     height: 96px;
     font-family: Lato-Regular, sans-serif;
@@ -546,7 +559,8 @@ body{
     font-size: 18px;
     line-height: 20px;
     text-align: justify;
-    letter-spacing: -1.1px;
+    text-align-last: left;
+    letter-spacing: -1.06px;
 }
 
 .scrible-d-5{
@@ -575,7 +589,7 @@ body{
     width: 741px;
     height: 150px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 82px;
     text-align: left;
     letter-spacing: -0.1px;
@@ -642,7 +656,7 @@ body{
     width: 630px;
     height: 173px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 82px;
     text-align: center;
     letter-spacing: -0.14px;
@@ -752,7 +766,7 @@ body{
     height: 91px;
     margin-left: 2px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 84px;
     letter-spacing: -1.4px;
     line-height: 84px;
@@ -869,7 +883,7 @@ body{
     width: 231px;
     height: 109px;
     font-family: Cardo-Bold, sans-serif;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 64px;
     line-height: 64px;
 }
