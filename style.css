@@ -674,6 +674,17 @@ body{
     justify-content: space-between;
 }
 
+.slider-line{
+    width: 1211px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    position: relative;
+    transition: all ease 1s;
+    left: 0;
+}
+
 .rect-arrow{
     position: absolute;
     width: 1294px;
@@ -686,22 +697,15 @@ body{
     z-index: 100;
 }
 
-.rect-arrow-g7-left{
+.arrow-left, .arrow-right{
     width: 83px;
     height: 73px;
     border: 3px solid #232323;
     border-radius: 10px;
-
+    cursor: pointer;
 }
 
-.rect-arrow-g7-right{
-    width: 83px;
-    height: 73px;
-    border: 3px solid #232323;
-    border-radius: 10px;
-}
-
-.rect-g-7{
+.slide{
     width: 389px;
     height: 424px;
     border: 3px solid #232323;
