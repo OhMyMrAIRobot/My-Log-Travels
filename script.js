@@ -1,23 +1,17 @@
 // slider
-let offset = 0;
 const sliderLine = document.querySelector('.slider-line');
+const offset = 410;
+const sliderLineChildrens = [...sliderLine.children];
+
+sliderLineChildrens.slice(-3).reverse().forEach(slide => {
+    sliderLine.insertAdjacentHTML("afterbegin", slide.outerHTML);
+});
 
 document.querySelector('.arrow-right').addEventListener('click', function(){
-    offset -= 389;
-    if (offset < -389) {
-        offset = 0;
-    }
-    sliderLine.style.left = -offset + 'px';
+    sliderLine.scrollLeft += offset;
 });
 
 document.querySelector('.arrow-left').addEventListener('click', function () {
-    offset += 389;
-    if (offset > 389) {
-        offset = 0;
-    }
-    sliderLine.style.left = -offset + 'px';
+    sliderLine.scrollLeft -= offset;
 });
-
-
-
 

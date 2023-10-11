@@ -676,22 +676,32 @@ body{
 
 .slider-line{
     width: 1211px;
+    height: 424px;
     display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-between;
     position: relative;
     transition: all ease 1s;
     left: 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.slider-line::-webkit-scrollbar {
+    display: none;
 }
 
 .rect-arrow{
     position: absolute;
     width: 1294px;
-    height: 73px;
+    height: 510px;
     display: flex;
+    margin-top: 55px;
     justify-content: space-between;
-    margin-left: -44px;
+    align-items: center;
+    margin-left: -45px;
     top: 62%;
     transform: translate(0%, -62%);
     z-index: 100;
@@ -706,11 +716,16 @@ body{
 }
 
 .slide{
-    width: 389px;
+    min-width: 389px;
     height: 424px;
     border: 3px solid #232323;
     border-radius: 10px;
     text-align: center;
+    margin-left: 21px;
+}
+
+.slide:first-child{
+    margin-left: 0;
 }
 
 .person-group-7{
