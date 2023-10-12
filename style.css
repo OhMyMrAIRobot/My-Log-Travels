@@ -277,7 +277,7 @@ body{
 }
 
 .scrible-light-g-1{
-    margin-top: 51px;
+    margin-top: 52px;
 }
 
 .scrible-light-g-2{
@@ -304,14 +304,14 @@ body{
 }
 
 .delimiter{
-    margin-top: 28px;
+    margin-top: 27px;
     width: 52px;
     height: 3px;
     background-color: #232323;
 }
 
 .head-img{
-    margin-top: 24px;
+    margin-top: 25px;
     width: 230px;
     height: 63px;
     font-family: Cardo-Bold, sans-serif;
@@ -502,6 +502,7 @@ body{
 
 .man-on-mountain-image{
     margin-top: auto;
+    margin-bottom: -4px;
 }
 
 .man-on-mountain-text{
@@ -608,6 +609,7 @@ body{
 }
 
 .par-group-6{
+    transition: 1s;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
