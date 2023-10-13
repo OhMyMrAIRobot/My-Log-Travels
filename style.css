@@ -363,6 +363,7 @@ body{
 .plane-icon{
     width: 1440px;
     text-align: center;
+    font-size: 78px;
 }
 
 .coursive{
@@ -609,7 +610,6 @@ body{
 }
 
 .par-group-6{
-    transition: 1s;
     font-family: Lato-Regular, sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -620,6 +620,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-left: 39px;
+    transition: 1s;
 }
 
 .line-6{
@@ -630,8 +631,8 @@ body{
 .btn-group-6{
     background-color: transparent;
     border: none;
-    font-size: 40px;
-    padding-right: 40px;
+    font-size: 25px;
+    padding-right: 42px;
     cursor: pointer;
 }
 
@@ -717,6 +718,14 @@ body{
     cursor: pointer;
 }
 
+.arrow-l{
+    transform: scale(-1, 1);
+}
+
+.arrow-l, .arrow-r{
+    font-size: 41px;
+}
+
 .slide{
     min-width: 389px;
     height: 424px;
@@ -728,6 +737,10 @@ body{
 
 .slide:first-child{
     margin-left: 0;
+}
+
+.fa-circle-user{
+    font-size: 135px;
 }
 
 .person-group-7{

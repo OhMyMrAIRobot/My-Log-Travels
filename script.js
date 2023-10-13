@@ -24,9 +24,9 @@ btnList.forEach(function(btn) {
     btn.addEventListener('click', function () {
         const parent = btn.parentNode;
         if (parent.style.marginBottom !== 50 + 'px'){
-            parent.style.marginBottom = offsetY + 'px';
+            parent.style.marginBottom = `${offsetY}px`;
         } else {
-            parent.style.marginBottom = 0 + 'px';
+            parent.style.marginBottom = `${0}px`;
         }
     });
 });
