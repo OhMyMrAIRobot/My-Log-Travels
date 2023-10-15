@@ -31,3 +31,25 @@ btnList.forEach(function(btn) {
     });
 });
 
+// Submit button click
+const btnSubmit = document.querySelector('.btn-group-8');
+const inputAreas = document.querySelectorAll('.text-input');
+const textArea = document.querySelector('.msg-input');
+const greyColor = "#aeaeae";
+
+btnSubmit.addEventListener('click', function (){
+    btnSubmit.textContent = "Submitted";
+    btnSubmit.setAttribute('disabled', true);
+    btnSubmit.style.cursor = "default";
+    btnSubmit.style.pointerEvents = "none";
+    btnSubmit.style.backgroundColor = greyColor;
+    btnSubmit.style.borderColor = greyColor;
+
+    inputAreas.forEach(function (area){
+        area.value = "";
+    })
+    textArea.value = "";
+
+
+})
+

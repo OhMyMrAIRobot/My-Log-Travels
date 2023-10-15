@@ -363,7 +363,7 @@ body{
 .plane-icon{
     width: 1440px;
     text-align: center;
-    font-size: 78px;
+    font-size: 70px;
 }
 
 .coursive{
@@ -386,7 +386,7 @@ body{
     font-size: 99px;
     letter-spacing: -0.5px;
     line-height: 96px;
-    margin-top: 59px;
+    margin-top: 68px;
     margin-left: 3px;
 }
 
@@ -723,7 +723,7 @@ body{
 }
 
 .arrow-l, .arrow-r{
-    font-size: 41px;
+    font-size: 43px;
 }
 
 .slide{
@@ -865,7 +865,7 @@ body{
     border: 1px solid #232323;
     border-radius: 5px;
     background-color: #232323;
-    padding-top: 17px;
+    /*padding-top: 17px;*/
     text-align: center;
     color:#e9e7e7;
     font-family: Lato-Regular, sans-serif;
@@ -874,6 +874,7 @@ body{
     letter-spacing: 0.5px;
     padding-left: 2px;
     transition: 1s;
+    cursor: pointer;
 }
 
 .btn-group-8:hover{

@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/0cca381f7a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-
     <title>My Log Travels</title>
 </head>
 <body>
@@ -20,7 +18,7 @@
                     <li><a class = "nav-btn" href="#labout">About</a></li>
                 </ul>
 
-                <a href = "#" class = "btn-contact">Contact Us</a>
+                <a href = "#lcontact" class = "btn-contact">Contact Us</a>
             </nav>
 
             <div class = "home">
@@ -96,7 +94,7 @@
 
     <!--Group3-->
     <section class = "flights" id = "lflights">
-        <i class="fa-solid fa-jet-fighter-up plane-icon"></i>
+        <i class="fa-light fa-plane-engines plane-icon fa-rotate-270"></i>
 
         <div class = "container-flights">
             <div class = "text-flights">
@@ -133,14 +131,14 @@
                     <p class = "par-mountains-text">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
                     <br> <br>&nbspexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
-                    <p class = "arrow"><a href = "#"><img src="./images/Arrow.png" alt = "arrow"></a></p>
+                    <p class = "arrow"><a href = "#lguides"><img src="./images/Arrow.png" alt = "arrow"></a></p>
                 </div>
             </div>
         </div>
     </section>
 
     <!--Group 5-->
-    <div class="man-on-mountain">
+    <div class="man-on-mountain" id = "lblogs">
         <div class="man-on-mountain-container">
             <div class="man-on-mountain-text">
                 <h1 class="man-on-mountain-h1">Choose anywhere you’d like to be</h1>
@@ -165,7 +163,7 @@
     <div class = "emptydiv-3"></div>
 
     <!--Group 6-->
-    <section class = "container-group-6">
+    <section class = "container-group-6" id = "lteam">
         <div class = "text-group-6">
             <h1 class = "head-group-6">Lorem ipsum dolor sit amet consectetur</h1>
             <div class = "emptydiv-4"></div>
@@ -206,27 +204,24 @@
         <div class="group-7-rects">
             <div class = "rect-arrow">
                 <button class = "arrow-left">
-                    <i class="fa-solid fa-arrow-right arrow-l"></i>
+                    <i class="fa-light fa-arrow-right arrow-l"></i>
                 </button>
                 <button class = "arrow-right">
-                    <i class="fa-solid fa-arrow-right arrow-r"></i>
+                    <i class="fa-light fa-arrow-right arrow-r"></i>
                 </button>
             </div>
             <ul class = "slider-line">
                 <li class="slide">
                     <i class="fa-solid fa-circle-user person-group-7"></i>
-<!--                    <img src="./images/Person-Icon.png" alt = "person" class = "person-group-7"/>-->
                     <h3 class = "head-group-7">Customer Name</h3>
                     <p class = "par-group-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                 </li>
                 <li class="slide">
-<!--                    <img src="./images/Person-Icon.png" alt = "person" class = "person-group-7"/>-->
                     <i class="fa-solid fa-circle-user person-group-7"></i>
                     <h3 class = "head-group-7">Customer Name</h3>
                     <p class = "par-group-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>
                 </li>
                 <li class="slide">
-<!--                    <img src="images/Person-Icon.png" alt = "person" class = "person-group-7"/>-->
                     <i class="fa-solid fa-circle-user person-group-7"></i>
                     <h3 class = "head-group-7">Customer Name</h3>
                     <p class = "par-group-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.</p>
@@ -237,7 +232,7 @@
     </section>
 
     <!--Group 8-->
-    <section class = "group-8">
+    <section class = "group-8" id = "lcontact">
         <div class = "text-group-8">
             <h1 class = "title-group-8">Be updated!</h1>
             <div class = "containers-group-8">
@@ -246,7 +241,7 @@
                 <input class="text-input" name="email" placeholder="Email Subject*" />
                 <textarea class="msg-input" name="message" placeholder="Write something here..."></textarea>
             </div>
-            <a href = "#" class = "btn-group-8">Submit Email</a>
+            <button class = "btn-group-8">Submit Email</button>
         </div>
         <img src="./images/img-group-8.png" alt = "river" class = "img-group-8">
     </section>
@@ -267,19 +262,19 @@
                             <li><a class = "item-9" href="#">My Travel Logs</a></li>
                         </ul>
                         <ul class = "column-9 c2">
-                            <li><a class = "item-9" href="#">Travels</a></li>
-                            <li><a class = "item-9" href="#">Promo Flights</a></li>
-                            <li><a class = "item-9" href="#">Travel Routes</a></li>
+                            <li><a class = "item-9" href="#lguides">Travels</a></li>
+                            <li><a class = "item-9" href="#lflights">Promo Flights</a></li>
+                            <li><a class = "item-9" href="#lguides">Travel Routes</a></li>
                         </ul>
                         <ul class = "column-9 c3">
                             <li><a class = "item-9 subitem-9" href="#lrecomendations">Recommendations</a></li>
                             <li><a class = "item-9 subitem-9" href="#lguides">Guides</a></li>
-                            <li><a class = "item-9 subitem-9" href="#">Blogs</a></li>
+                            <li><a class = "item-9 subitem-9" href="#lblogs">Blogs</a></li>
                         </ul>
                         <ul class = "column-9 c4">
                             <li><a class = "item-9" href="#">Mission Statement</a></li>
-                            <li><a class = "item-9" href="#">The Team</a></li>
-                            <li><a class = "item-9" href="#">Contact Us</a></li>
+                            <li><a class = "item-9" href="#lteam">The Team</a></li>
+                            <li><a class = "item-9" href="#lcontact">Contact Us</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -289,4 +284,15 @@
         <img src="images/Scribble-Dark-group9.png" alt = "scrible-dark" class = "scrible-d-9">
     </footer>
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0cca381f7a.js" crossorigin="anonymous"></script>
+    <link
+            rel="stylesheet"
+            data-purpose="Layout StyleSheet"
+            title="Web Awesome"
+            href="/css/app-wa-02670e9412103b5852dcbe140d278c49.css?vsn=d"
+    >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/sharp-light.css">
 </body>
