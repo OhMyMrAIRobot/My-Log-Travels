@@ -361,9 +361,7 @@ body{
 }
 
 .plane-icon{
-    width: 1440px;
     text-align: center;
-    font-size: 70px;
 }
 
 .coursive{
@@ -386,7 +384,7 @@ body{
     font-size: 99px;
     letter-spacing: -0.5px;
     line-height: 96px;
-    margin-top: 68px;
+    margin-top: 59px;
     margin-left: 3px;
 }
 
